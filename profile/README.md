@@ -5,7 +5,7 @@
   Small community projects that fix annoying hardware and software quirks on the devices we actually use.
 </p>
 
-Jesty Labs is a collection of free and open-source utilities built around real problems found on Android gaming handhelds.
+A collection of free and open-source utilities built around real problems found on Android gaming handhelds.
 
 The goal is simple: **make useful fixes easy to understand, easy to install, and easy to verify** — without hiding what the app is doing behind vague claims.
 

@@ -21,7 +21,7 @@ True lower-display power-off for the AYN Thor.
 - Live display / CPU telemetry
 - Hardware-verified behavior
 
-👉 [Jesty Thor Fix](https://github.com/Jesty/Jesty-Thor-Fix)
+👉 [Jesty Thor Fix](https://github.com/JestyLabs/Jesty-Thor-Fix)
 
 ---
 
@@ -34,7 +34,7 @@ Native charging separation for Retroid Pocket 5 and Retroid Pocket Flip 2.
 - Automatic safety fallback
 - No Magisk setup required
 
-👉 [Jesty RP Charging Separation](https://github.com/Jesty/Jesty-RP-Charging-Separation)
+👉 [Jesty RP Charging Separation](https://github.com/JestyLabs/Jesty-RP-Charging-Separation)
 
 ---
 

@@ -1,4 +1,6 @@
-<h1 align="center">Jesty Labs</h1>
+<p align="center">
+  <img src="../assets/branding/jesty_labs_lockup.png" alt="Jesty Labs" width="620">
+</p>
 
 <p align="center">
   <strong>Open-source tools for Android gaming handhelds.</strong><br>
@@ -23,11 +25,18 @@ The apps are also designed so the dashboard does not need to stay on screen all 
 
 The exact behavior depends on the project, but the idea is the same: **you should not need to babysit an app just to keep a fix working.**
 
+Swiping an app away from Recents is fine. **Android Settings -> Force stop is
+different:** it explicitly blocks the app until you open it again.
+
 ---
 
 ## Projects
 
 ### 🎮 Jesty Thor Fix
+
+<p>
+  <img src="../assets/branding/jesty_thor_header_lockup.png" alt="Jesty Thor Fix" width="520">
+</p>
 
 **Actually turns the AYN Thor bottom screen off.**
 
@@ -64,6 +73,10 @@ And, of course:
 
 ### 🔋 Jesty RP Charging Separation
 
+<p>
+  <img src="../assets/branding/jesty_rp_header_lockup.png" alt="Jesty RP Charging Separation" width="620">
+</p>
+
 **Play while plugged in without continuously charging the battery.**
 
 Normally, plugging in a Retroid powers the handheld **and** charges the battery at the same time.
@@ -90,7 +103,8 @@ It also:
 - Verifies that charging separation actually activated
 - Monitors battery behavior while separation is active
 - Restores normal charging automatically if something does not look right
-- Has been tested on Retroid Pocket Flip 2 and Retroid Pocket 5
+- Exact public APK validated on Retroid Pocket Flip 2
+- Reported working on Retroid Pocket 5; repeat telemetry is welcome
 
 👉 **[Jesty RP Charging Separation](https://github.com/JestyLabs/Jesty-RP-Charging-Separation)**
 

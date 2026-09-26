@@ -8,7 +8,7 @@
   <strong>Open-source tools for Android gaming handhelds.</strong>
 </p>
 
-Jesty is a collection of small community tools built to solve hardware and software quirks on Android gaming handhelds.
+A collection of small community tools built to solve hardware and software quirks on Android gaming handhelds.
 
 ## Projects
 
@@ -16,7 +16,7 @@ Jesty is a collection of small community tools built to solve hardware and softw
 
 True lower-display power-off for the AYN Thor.
 
-- Real bottom-display scanout disable
+- Real bottom-display scanout disable - no more black screen workaround like implemented in AYN default solution
 - Automatic wake repair
 - Live display / CPU telemetry
 - Hardware-verified behavior

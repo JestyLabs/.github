@@ -10,9 +10,15 @@ A collection of small community tools built to solve hardware and software quirk
 
 ### 🎮 Jesty Thor Fix
 
-True lower-display power-off for the AYN Thor.
+A true bottom-screen power-off fix for the AYN Thor.
 
-- Real bottom-display scanout disable - no more black screen workaround like implemented in AYN default solution
+AYN's stock TOP-only mode can make the lower display appear off while its display pipeline remains active. On tested firmware, this can also leave CPU clusters pinned at unusually high frequencies, increasing power draw and heat.
+
+Jesty Thor Fix changes the actual hardware state instead of relying on a black-screen workaround.
+
+- True lower-display scanout disable
+- Fixes the high CPU-frequency behavior seen in stock TOP-only mode
+- Reduces unnecessary power draw and heat in tested low-load conditions
 - Automatic wake repair
 - Live display / CPU telemetry
 - Hardware-verified behavior

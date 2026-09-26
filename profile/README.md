@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="..." alt="Jesty" width="390">
-</p>
-
-<h1 align="center">Jesty</h1>
+<h1 align="center">Jesty Labs</h1>
 
 <p align="center">
   <strong>Open-source tools for Android gaming handhelds.</strong>

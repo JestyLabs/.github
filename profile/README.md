@@ -66,13 +66,14 @@ charging while USB remains connected and continues powering the handheld.
 - Live battery-flow, USB-input, and temperature telemetry.
 - Safety monitoring with automatic fallback to normal charging.
 - Optional restore after a normal reboot.
-- Exact downloadable APK validated on Retroid Pocket Flip 2.
+- Charging behavior measured and validated on Retroid Pocket Flip 2; the
+  icon-only `1.4.2` rebuild was not reinstalled in this release round.
 - Reported working on Retroid Pocket 5; publishable RP5 telemetry is still
   welcome.
-- Stable `1.4.1` is ready for Retroid Pocket Mini V2 testing. Its controls are
+- Stable `1.4.2` is ready for Retroid Pocket Mini V2 testing. Its controls are
   capability-based, but exact-device validation is still pending.
 
-**[Download and learn more →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation)**
+**[Download v1.4.2 and learn more →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation/releases/tag/v1.4.2)**
 
 ## Built around evidence
 

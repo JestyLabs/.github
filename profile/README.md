@@ -1,140 +1,112 @@
 <p align="center">
-  <img src="../assets/branding/jesty_labs_lockup.png" alt="Jesty Labs" width="620">
+  <img src="../assets/branding/jesty_labs_lockup.png" alt="Jesty Labs" width="650">
 </p>
 
 <p align="center">
-  <strong>Open-source tools for Android gaming handhelds.</strong><br>
-  Small community projects built to fix annoying hardware and software quirks on the devices we actually use.
+  <strong>Small, open-source tools for Android gaming handhelds.</strong><br>
+  Built around real hardware problems, simple setup, and evidence you can inspect.
 </p>
 
-Jesty Labs is where I put the little utilities that start with **"why does this handheld do that?"** and somehow turn into proper apps.
+<p align="center">
+  <a href="#apps"><strong>Explore the apps</strong></a>
+  · <a href="https://github.com/orgs/JestyLabs/repositories">Source code</a>
+  · <a href="https://www.buymeacoffee.com/jesty">☕ Support device testing</a>
+</p>
 
-The goal is simple: **fix a real problem, make the app easy to use, and show enough testing that you do not have to take my word for it.**
+## What Jesty Labs is
 
-No subscriptions, no locked features, and no complicated setup just for the sake of it.
+Jesty Labs is where a small handheld annoyance becomes a focused utility:
 
-## Made to be simple
+**find the real hardware behavior → fix it safely → make it easy to use → show
+how it was verified.**
 
-For normal use, these apps are designed to be as close as possible to:
+The apps are free and open source. There are no subscriptions and no features
+locked behind donations.
 
-**install → enable → forget about it**
+For normal use, the goal is always as close as possible to:
 
-You do **not** need to root the device yourself, install Magisk, or keep a terminal open.
+### install → enable → forget
 
-The apps are also designed so the dashboard does not need to stay on screen all the time. Once enabled, the background component does the actual work with minimal overhead.
+- No Magisk or user-managed root setup.
+- No terminal commands for normal use.
+- No need to keep the dashboard open.
+- The app can be swiped away from Recents while its background component keeps
+  working.
+- **Android Settings → Force stop is different** and blocks an app until it is
+  opened again.
 
-The exact behavior depends on the project, but the idea is the same: **you should not need to babysit an app just to keep a fix working.**
+## Apps
 
-Swiping an app away from Recents is fine. **Android Settings -> Force stop is
-different:** it explicitly blocks the app until you open it again.
+### Jesty Thor Fix
+
+<p align="center">
+  <a href="https://github.com/JestyLabs/Jesty-Thor-Fix">
+    <img src="../assets/branding/jesty_thor_header_lockup.png" alt="Jesty Thor Fix" width="560">
+  </a>
+</p>
+
+**True bottom-screen OFF for the AYN Thor.**
+
+Stock TOP-only can make the lower panel look black while its display hardware
+remains active. On the tested firmware, LITTLE and BIG CPU clocks also remained
+pinned under a light workload.
+
+Jesty Thor Fix powers down the lower display hardware, releases the continuous
+clock pinning observed with the stock behavior, and restores true-off after
+sleep/wake.
+
+- Runs without the dashboard open.
+- Restores the saved enabled/disabled choice after a normal reboot.
+- Does not set CPU governors or force CPU frequencies.
+- Includes live display/CPU verification.
+- Exact downloadable APK validated on physical AYN Thor hardware.
+
+**[Download and learn more →](https://github.com/JestyLabs/Jesty-Thor-Fix)**
 
 ---
 
-## Projects
+### Jesty RP Charging Separation
 
-### 🎮 Jesty Thor Fix
-
-<p>
-  <img src="../assets/branding/jesty_thor_header_lockup.png" alt="Jesty Thor Fix" width="520">
-</p>
-
-**Actually turns the AYN Thor bottom screen off.**
-
-The Thor's stock **TOP-only** mode can make the lower screen look off while the display is still active in the background.
-
-On the firmware I tested, I also found the CPU staying at unusually high speeds in that state, adding unnecessary power use and heat while only the top screen was being used.
-
-**Jesty Thor Fix makes TOP-only behave the way you would expect:** the bottom screen is really turned off, and the fix is automatically restored after the Thor wakes from sleep.
-
-For normal use:
-
-- **No Magisk or user root setup required**
-- **No terminal commands required**
-- Install the APK, enable the fix, and leave it alone
-- The app does **not** need to stay open
-- You can **swipe it away from Recents**
-- The background fix keeps working
-- Your enabled/disabled choice is restored after a normal reboot
-- Designed for **negligible background CPU/battery overhead**
-- Does **not** change CPU governors or force CPU frequencies
-
-And, of course:
-
-- Actually turns the bottom display off instead of only making it look black
-- Helps avoid the high CPU-frequency behavior seen in stock TOP-only mode
-- Reduced unnecessary power use and heat in testing
-- Automatically restores the fix after sleep/wake
-- Shows live CPU and display information if you want to verify it
-- Verified on real AYN Thor hardware
-
-👉 **[Jesty Thor Fix](https://github.com/JestyLabs/Jesty-Thor-Fix)**
-
----
-
-### 🔋 Jesty RP Charging Separation
-
-<p>
-  <img src="../assets/branding/jesty_rp_header_lockup.png" alt="Jesty RP Charging Separation" width="620">
+<p align="center">
+  <a href="https://github.com/JestyLabs/Jesty-RP-Charging-Separation">
+    <img src="../assets/branding/jesty_rp_header_lockup.png" alt="Jesty RP Charging Separation" width="620">
+  </a>
 </p>
 
 **Play while plugged in without continuously charging the battery.**
 
-Normally, plugging in a Retroid powers the handheld **and** charges the battery at the same time.
+The app uses Retroid's own privileged charging controls to stop active battery
+charging while USB remains connected and continues powering the handheld.
 
-During a long gaming session or docked use, you may want USB power to keep running the device without continuously pushing charge into the battery.
+- Live battery-flow, USB-input, and temperature telemetry.
+- Safety monitoring with automatic fallback to normal charging.
+- Optional restore after a normal reboot.
+- Exact downloadable APK validated on Retroid Pocket Flip 2.
+- Reported working on Retroid Pocket 5; publishable RP5 telemetry is still
+  welcome.
 
-**Jesty RP Charging Separation uses Retroid's own charging controls** to stop active battery charging while USB remains connected and continues supplying the handheld.
+**[Download and learn more →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation)**
 
-For normal use:
+## Built around evidence
 
-- **No Magisk or user root setup required**
-- **No terminal commands required**
-- Install the APK and enable Charging Separation
-- The dashboard does **not** need to stay open
-- You can **swipe it away from Recents**
-- The background controller keeps working
-- Optional restore after a normal reboot
-- Designed for **minimal background CPU/battery overhead**
-- Automatically falls back to normal charging if its safety checks fail
+Each project publishes the useful parts of its validation: device and firmware
+scope, measurements, sanitized samples, release hashes, safety limitations, and
+what still needs testing.
 
-It also:
+That distinction matters. A compatible-looking device is not automatically
+presented as validated, and a short power capture is not presented as a promise
+of a specific battery-life increase.
 
-- Shows live battery, USB and temperature information
-- Verifies that charging separation actually activated
-- Monitors battery behavior while separation is active
-- Restores normal charging automatically if something does not look right
-- Exact public APK validated on Retroid Pocket Flip 2
-- Reported working on Retroid Pocket 5; repeat telemetry is welcome
+## Help the projects
 
-👉 **[Jesty RP Charging Separation](https://github.com/JestyLabs/Jesty-RP-Charging-Separation)**
+- ⭐ Star an app so other handheld owners can find it.
+- 🧪 Test another firmware or compatible device and share redacted results.
+- 🐛 Report reproducible bugs or compatibility problems.
+- 💡 Contribute code, documentation, or focused ideas.
+- ☕ [Buy me a coffee](https://www.buymeacoffee.com/jesty) to help fund device
+  testing and future development.
 
----
-
-## Built around real hardware
-
-These projects are developed and tested on actual handhelds, with measurements and validation published alongside the code whenever possible.
-
-That means you should be able to see not only **what a tool claims to fix**, but also **how it was tested and what changed on the device**.
-
-Each project includes its own compatibility notes, measurements, safety information and technical documentation.
-
-I only have access to a limited number of devices myself, so testing from other owners — especially different firmware versions — is extremely useful.
-
----
-
-## Get involved
-
-**Everything at Jesty Labs is free and open source.**
-
-If one of the projects is useful to you, there are several ways to help:
-
-- ⭐ **Star the project** so other handheld owners can find it
-- 🧪 **Test it on another firmware or device** and share your results
-- 🐛 **Report bugs or compatibility issues**
-- 💡 **Suggest improvements** or contribute code/documentation
-- ☕ **[Buy me a coffee](https://www.buymeacoffee.com/jesty)** to help fund device testing and future development
-
-Testing, bug reports and useful feedback are just as valuable as financial support.
+Testing and useful reports are just as valuable as financial support.
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/jesty">
@@ -145,5 +117,6 @@ Testing, bug reports and useful feedback are just as valuable as financial suppo
 ---
 
 <p align="center">
-  <sub>Jesty Labs is an independent community project and is not affiliated with or endorsed by AYN Technologies, Retroid, or their respective parent companies.</sub>
+  <sub>Jesty Labs is an independent community project and is not affiliated with or endorsed by AYN Technologies, Retroid, or their respective parent companies.</sub><br>
+  <sub>Code, documentation, branding, and visual assets were developed with disclosed generative-AI assistance under human direction, supervision, review, testing, and final approval.</sub>
 </p>

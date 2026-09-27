@@ -12,6 +12,8 @@
   · <a href="https://www.buymeacoffee.com/jesty">☕ Support device testing</a>
 </p>
 
+---
+
 ### Jesty Thor Fix
 
 <p align="center">

@@ -4,7 +4,6 @@
 
 <p align="center">
   <strong>Small, open-source tools for Android gaming handhelds.</strong><br>
-  Built around real hardware problems, simple setup, and evidence you can inspect.
 </p>
 
 <p align="center">
@@ -12,8 +11,6 @@
   · <a href="https://github.com/orgs/JestyLabs/repositories">Source code</a>
   · <a href="https://www.buymeacoffee.com/jesty">☕ Support device testing</a>
 </p>
-
-## Apps
 
 ### Jesty Thor Fix
 

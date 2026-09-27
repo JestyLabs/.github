@@ -62,7 +62,7 @@ Jesty Thor Fix exposes one toggle for each behavior:
 - Restores both saved choices after a normal reboot.
 - Does not set CPU governors or force CPU frequencies.
 - Includes live display/CPU verification.
-- Exact `1.1.0` APK validated on physical AYN Thor hardware.
+- Exact `1.1.1` APK validated on physical AYN Thor hardware.
 
 > [!WARNING]
 > Changing the Dashboard CPU Fix briefly restarts the displays and USB. It can
@@ -92,6 +92,8 @@ charging while USB remains connected and continues powering the handheld.
 - Exact downloadable APK validated on Retroid Pocket Flip 2.
 - Reported working on Retroid Pocket 5; publishable RP5 telemetry is still
   welcome.
+- Stable `1.4.1` is ready for Retroid Pocket Mini V2 testing. Its controls are
+  capability-based, but exact-device validation is still pending.
 
 **[Download and learn more →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation)**
 

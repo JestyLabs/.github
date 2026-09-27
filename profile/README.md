@@ -45,21 +45,29 @@ For normal use, the goal is always as close as possible to:
   </a>
 </p>
 
-**True bottom-screen OFF for the AYN Thor.**
+**Two independent fixes for AYN Thor display and CPU behavior.**
 
 Stock TOP-only can make the lower panel look black while its display hardware
-remains active. On the tested firmware, LITTLE and BIG CPU clocks also remained
-pinned under a light workload.
+remains active. Separately, AYN Dashboard/dual-screen use can leave the LITTLE
+and BIG CPU clusters pinned at maximum under a light workload.
 
-Jesty Thor Fix powers down the lower display hardware, releases the continuous
-clock pinning observed with the stock behavior, and restores true-off after
-sleep/wake.
+Jesty Thor Fix exposes one toggle for each behavior:
+
+- **True Bottom Display Fix** powers the lower hardware fully off in TOP mode
+  and restores true-off after sleep/wake.
+- **AYN Dashboard CPU Fix** releases the reproduced LITTLE/BIG clock pinning in
+  dual-screen mode.
 
 - Runs without the dashboard open.
-- Restores the saved enabled/disabled choice after a normal reboot.
+- Restores both saved choices after a normal reboot.
 - Does not set CPU governors or force CPU frequencies.
 - Includes live display/CPU verification.
-- Exact downloadable APK validated on physical AYN Thor hardware.
+- Exact `1.1.0` APK validated on physical AYN Thor hardware.
+
+> [!WARNING]
+> Changing the Dashboard CPU Fix briefly restarts the displays and USB. It can
+> look like a reboot, but Android and open apps keep running. While enabled, it
+> repeats once during each normal boot and may look like a second reboot.
 
 **[Download and learn more →](https://github.com/JestyLabs/Jesty-Thor-Fix)**
 

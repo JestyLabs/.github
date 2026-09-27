@@ -13,28 +13,6 @@
   · <a href="https://www.buymeacoffee.com/jesty">☕ Support device testing</a>
 </p>
 
-## What Jesty Labs is
-
-Jesty Labs is where a small handheld annoyance becomes a focused utility:
-
-**find the real hardware behavior → fix it safely → make it easy to use → show
-how it was verified.**
-
-The apps are free and open source. There are no subscriptions and no features
-locked behind donations.
-
-For normal use, the goal is always as close as possible to:
-
-### install → enable → forget
-
-- No Magisk or user-managed root setup.
-- No terminal commands for normal use.
-- No need to keep the dashboard open.
-- The app can be swiped away from Recents while its background component keeps
-  working.
-- **Android Settings → Force stop is different** and blocks an app until it is
-  opened again.
-
 ## Apps
 
 ### Jesty Thor Fix

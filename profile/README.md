@@ -38,15 +38,15 @@ Jesty Thor Fix exposes one toggle for each behavior:
 - Runs without the dashboard open.
 - Restores both saved choices after a normal reboot.
 - Does not set CPU governors or force CPU frequencies.
-- Includes live display/CPU verification.
-- Exact `1.1.1` APK validated on physical AYN Thor hardware.
+- Includes live display, CPU, USB-input, and estimated system-power verification.
+- Exact `1.2.0` APK validated on physical AYN Thor hardware.
 
 > [!WARNING]
-> Changing the Dashboard CPU Fix briefly restarts the displays and USB. It can
-> look like a reboot, but Android and open apps keep running. While enabled, it
-> repeats once during each normal boot and may look like a second reboot.
+> Changing the Dashboard CPU Fix restarts the Android framework once and closes
+> open apps. The display can stay black for several seconds. While enabled, the
+> same second phase runs once during each normal boot.
 
-**[Download and learn more →](https://github.com/JestyLabs/Jesty-Thor-Fix)**
+**[Download v1.2.0 and learn more →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.2.0)**
 
 ---
 

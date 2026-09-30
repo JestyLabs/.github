@@ -76,7 +76,7 @@ charging while USB remains connected and continues powering the handheld.
 - Stable `1.4.2` is ready for Retroid Pocket Mini V2 testing. Its controls are
   capability-based, but exact-device validation is still pending.
 
-**[Download v1.4.2 and learn more →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation/releases/tag/v1.4.3)**
+**[Download v1.4.2 and learn more →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation/releases/tag/v1.4.2)**
 
 ## Built around evidence
 

@@ -28,12 +28,14 @@ Stock TOP-only can make the lower panel look black while its display hardware
 remains active. Separately, AYN Dashboard/dual-screen use can leave the LITTLE
 and BIG CPU clusters pinned at maximum under a light workload.
 
-Jesty Thor Fix exposes one toggle for each behavior:
+Jesty Thor Fix exposes two independent fixes and an optional wake guard:
 
 - **True Bottom Screen Off** powers the lower hardware fully off in TOP mode
   and restores true-off after sleep/wake.
 - **AYN Dashboard CPU Fix** releases the reproduced LITTLE/BIG clock pinning in
   dual-screen mode.
+- **Closed-Lid Wake Guard** returns an accidental wake to sleep while the
+  Hall switch still reports the lid closed. It is OFF by default.
 
 - Runs without the dashboard open.
 - Restores both saved choices after a normal reboot.
@@ -52,6 +54,8 @@ Jesty Thor Fix exposes one toggle for each behavior:
 > and can look like a second boot phase.
 
 **[Download v1.5.15 and read the release notes →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.15)**
+
+[See real v1.5.15 screenshots of both Thor displays →](https://github.com/JestyLabs/Jesty-Thor-Fix#real-v1515-screenshots)
 
 ---
 

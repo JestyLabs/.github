@@ -40,7 +40,7 @@ Jesty Thor Fix exposes one toggle for each behavior:
 - Does not set CPU governors or force CPU frequencies.
 - Includes automatic physical-display and CPU-clock status in the dashboard.
 - The latest stable build has been validated on physical AYN Thor hardware.
-- The [v1.5.15 testing pre-release](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.15)
+- The [latest stable v1.5.15 release](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.15)
   includes staged boot restoration and an opt-in Closed-Lid Wake Guard (OFF
   by default). Its CPU Fix restore passed a supervised cold boot on the
   maintainer's Thor; BOTTOM ONLY and physical dock use remain deferred.
@@ -51,7 +51,7 @@ Jesty Thor Fix exposes one toggle for each behavior:
 > open apps. While enabled, that restart also happens once during a normal boot
 > and can look like a second boot phase.
 
-**[Download and release notes →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases)**
+**[Download v1.5.15 and read the release notes →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.15)**
 
 ---
 

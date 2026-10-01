@@ -56,6 +56,8 @@ Jesty Thor Fix has three controls:
 
 **[Download v1.5.16 and read the release notes →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.16)**
 
+Testing boot timing changes? [v1.5.17 pre-release](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.17) awaits supervised Thor validation.
+
 [See the Jesty dashboard and its three controls →](https://github.com/JestyLabs/Jesty-Thor-Fix#the-three-controls)
 
 ---

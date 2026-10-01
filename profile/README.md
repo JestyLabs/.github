@@ -42,18 +42,19 @@ Jesty Thor Fix exposes two independent fixes and an optional wake guard:
 - Does not set CPU governors or force CPU frequencies.
 - Includes automatic physical-display and CPU-clock status in the dashboard.
 - The latest stable build has been validated on physical AYN Thor hardware.
-- The [latest stable v1.5.15 release](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.15)
+- The [latest stable v1.5.16 release](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.16)
   includes staged boot restoration and an opt-in Closed-Lid Wake Guard (OFF
-  by default). Its CPU Fix restore passed a supervised cold boot on the
-  maintainer's Thor; BOTTOM ONLY and physical dock use remain deferred.
-  Read the release notes before installing.
+  by default). It recognizes a socket left by an earlier boot; the exact APK
+  reached READY at 65.479 s in one supervised Thor cold boot, with both
+  screens normal and no reported green flash. BOTTOM ONLY and physical dock
+  use remain deferred. Read the release notes before installing.
 
 > [!WARNING]
 > Changing the Dashboard CPU Fix restarts Android's UI/display stack and closes
 > open apps. While enabled, that restart also happens once during a normal boot
 > and can look like a second boot phase.
 
-**[Download v1.5.15 and read the release notes →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.15)**
+**[Download v1.5.16 and read the release notes →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.16)**
 
 [See real v1.5.15 screenshots of both Thor displays →](https://github.com/JestyLabs/Jesty-Thor-Fix#real-v1515-screenshots)
 

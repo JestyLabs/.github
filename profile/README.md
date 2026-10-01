@@ -22,13 +22,13 @@
   </a>
 </p>
 
-**Two independent fixes for AYN Thor display and CPU behavior.**
+**True lower-screen off, normal CPU downclocking, and closed-lid wake protection for AYN Thor.**
 
 Stock TOP-only can make the lower panel look black while its display hardware
 remains active. Separately, AYN Dashboard/dual-screen use can leave the LITTLE
 and BIG CPU clusters pinned at maximum under a light workload.
 
-Jesty Thor Fix exposes two independent fixes and an optional wake guard:
+Jesty Thor Fix has three controls:
 
 - **True Bottom Screen Off** powers the lower hardware fully off in TOP mode
   and restores true-off after sleep/wake.
@@ -56,7 +56,7 @@ Jesty Thor Fix exposes two independent fixes and an optional wake guard:
 
 **[Download v1.5.16 and read the release notes →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.16)**
 
-[See real v1.5.15 screenshots of both Thor displays →](https://github.com/JestyLabs/Jesty-Thor-Fix#real-v1515-screenshots)
+[See the Jesty dashboard and its three controls →](https://github.com/JestyLabs/Jesty-Thor-Fix#the-three-controls)
 
 ---
 

@@ -77,15 +77,15 @@ charging while USB remains connected and continues powering the handheld.
 
 - Live battery-flow, USB-input, and temperature telemetry.
 - Safety monitoring with automatic fallback to normal charging.
-- Optional restore after a normal reboot.
-- Charging behavior measured and validated on Retroid Pocket Flip 2; the
-  icon-only `1.4.2` rebuild was not reinstalled in this release round.
-- Reported working on Retroid Pocket 5; publishable RP5 telemetry is still
-  welcome.
-- Stable `1.4.2` is ready for Retroid Pocket Mini V2 testing. Its controls are
-  capability-based, but exact-device validation is still pending.
+- Choose **RIGHT AWAY** or **AT A BATTERY LEVEL**: charge to a chosen stop level
+  (80% by default), then charge again at a lower level (70% by default).
+- Optional **Maintain bypass charging after reboot** setting.
+- Community-tested compatibility with Retroid Pocket 5, Flip 2, Pocket Mini,
+  and Mini V2. The maintainer has shared [v1.5.2 Flip 2 screenshots](https://github.com/JestyLabs/Jesty-RP-Charging-Separation#v152-on-retroid-pocket-flip-2)
+  showing both modes and normal charging toward an 80% stop level. A complete
+  automatic stop/resume cycle on the exact APK remains to be documented.
 
-**[Download v1.4.2 and learn more →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation/releases/tag/v1.4.2)**
+**[Download stable v1.5.3 and learn more →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation/releases/tag/v1.5.3)**
 
 ## Built around evidence
 

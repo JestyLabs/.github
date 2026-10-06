@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Small, open-source tools for Android gaming handhelds.</strong><br>
+  <strong>Small, open-source tools for Android gaming handhelds.</strong>
 </p>
 
 <p align="center">
@@ -22,43 +22,26 @@
   </a>
 </p>
 
-**True lower-screen off, normal CPU downclocking, and closed-lid wake protection for AYN Thor.**
+**Actually turn off the lower screen in TOP mode, stop unnecessary high CPU clocks, and prevent false wakes.**
 
-Stock TOP-only can make the lower panel look black while its display hardware
-remains active. Separately, AYN Dashboard/dual-screen use can leave the LITTLE
-and BIG CPU clusters pinned at maximum under a light workload.
+On the AYN Thor, TOP mode can leave the lower display hardware active behind a black screen. Separately, AYN Dashboard can keep the LITTLE and BIG CPU clusters pinned high under light load.
 
-Jesty Thor Fix has three controls:
+Jesty Thor Fix has three independent controls:
 
-- **True Bottom Screen Off** powers the lower hardware fully off in TOP mode
-  and restores true-off after sleep/wake.
-- **AYN Dashboard CPU Fix** releases the reproduced LITTLE/BIG clock pinning in
-  dual-screen mode.
-- **Closed-Lid Wake Guard** returns an accidental wake to sleep while the
-  Hall switch still reports the lid closed. It is OFF by default.
+- **True Bottom Screen Off** – powers the lower hardware fully off in TOP mode and restores true-off after sleep/wake
+- **AYN Dashboard CPU Fix** – stops the reproduced LITTLE/BIG clock pinning (does not change governors or force frequencies)
+- **Closed-Lid Wake Guard** – returns an accidental wake to sleep while the lid is still closed (OFF by default)
 
-- Runs without the dashboard open.
-- Restores both saved choices after a normal reboot.
-- Does not set CPU governors or force CPU frequencies.
-- Includes automatic physical-display and CPU-clock status in the dashboard.
-- The latest stable build has been validated on physical AYN Thor hardware.
-- The [latest stable v1.5.16 release](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.16)
-  includes staged boot restoration and an opt-in Closed-Lid Wake Guard (OFF
-  by default). It recognizes a socket left by an earlier boot; the exact APK
-  reached READY at 65.479 s in one supervised Thor cold boot, with both
-  screens normal and no reported green flash. BOTTOM ONLY and physical dock
-  use remain deferred. Read the release notes before installing.
+Also:
+- Runs in the background after you close the app
+- Restores your choices after a normal reboot
+- Shows live display and CPU status in the dashboard
+- Validated on physical AYN Thor hardware
 
-> [!WARNING]
-> Changing the Dashboard CPU Fix restarts Android's UI/display stack and closes
-> open apps. While enabled, that restart also happens once during a normal boot
-> and can look like a second boot phase.
+> **Note:** Enabling the CPU Fix restarts Android’s UI/display stack once and closes open apps. The same restart can happen once during boot if the fix is saved as ON.
 
-**[Download v1.5.16 and read the release notes →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.16)**
-
-Testing boot timing changes? [v1.5.17 pre-release](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.5.17) awaits supervised Thor validation.
-
-[See the Jesty dashboard and its three controls →](https://github.com/JestyLabs/Jesty-Thor-Fix#the-three-controls)
+**[Download the latest release →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/latest)**  
+[See the dashboard and controls →](https://github.com/JestyLabs/Jesty-Thor-Fix#what-it-does)
 
 ---
 
@@ -72,39 +55,33 @@ Testing boot timing changes? [v1.5.17 pre-release](https://github.com/JestyLabs/
 
 **Play while plugged in without continuously charging the battery.**
 
-The app uses Retroid's own privileged charging controls to stop active battery
-charging while USB remains connected and continues powering the handheld.
+Uses Retroid’s own privileged charging controls to stop active battery charging while USB keeps powering the handheld.
 
-- Live battery-flow, USB-input, and temperature telemetry.
-- Safety monitoring with automatic fallback to normal charging.
-- Choose **RIGHT AWAY** or **AT A BATTERY LEVEL**: charge to a chosen stop level
-  (80% by default), then charge again at a lower level (70% by default).
-- Optional **Maintain bypass charging after reboot** setting.
-- Community-tested compatibility with Retroid Pocket 5, Flip 2, Pocket Mini,
-  and Mini V2. The maintainer has shared [v1.5.2 Flip 2 screenshots](https://github.com/JestyLabs/Jesty-RP-Charging-Separation#v152-on-retroid-pocket-flip-2)
-  showing both modes and normal charging toward an 80% stop level. A complete
-  automatic stop/resume cycle on the exact APK remains to be documented.
+- Live battery current, USB input and temperature telemetry
+- Safety monitoring with automatic fallback to normal charging
+- **Right away** or **At a battery level** (default: stop at 80%, charge again at 70%)
+- Optional restore after reboot
+- Compatible with Retroid Pocket 5, Flip 2, Pocket Mini and Mini V2 (community + maintainer tested)
 
-**[Download stable v1.5.3 and learn more →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation/releases/tag/v1.5.3)**
+**[Download the latest release →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation/releases/latest)**
 
-## Built around evidence
+---
 
-Each project publishes the useful parts of its validation: device and firmware
-scope, measurements, sanitized samples, release hashes, safety limitations, and
-what still needs testing.
+### Built around evidence
 
-That distinction matters. A compatible-looking device is not automatically
-presented as validated, and a short power capture is not presented as a promise
-of a specific battery-life increase.
+Each project publishes the useful parts of its validation: device and firmware scope, measurements, sanitized samples, release hashes, safety limitations, and what still needs testing.
 
-## Help the projects
+A compatible-looking device is not automatically treated as validated, and a short power capture is never presented as a fixed battery-life promise.
 
-- ⭐ Star an app so other handheld owners can find it.
-- 🧪 Test another firmware or compatible device and share redacted results.
-- 🐛 Report reproducible bugs or compatibility problems.
-- 💡 Contribute code, documentation, or focused ideas.
-- ☕ [Buy me a coffee](https://www.buymeacoffee.com/jesty) to help fund device
-  testing and future development.
+---
+
+### Help the projects
+
+- ⭐ Star an app so other handheld owners can find it
+- 🧪 Test another firmware or device and share redacted results
+- 🐛 Report reproducible bugs or compatibility problems
+- 💡 Contribute code, documentation or focused ideas
+- ☕ [Buy me a coffee](https://www.buymeacoffee.com/jesty) to help fund device testing
 
 Testing and useful reports are just as valuable as financial support.
 
@@ -118,5 +95,5 @@ Testing and useful reports are just as valuable as financial support.
 
 <p align="center">
   <sub>Jesty Labs is an independent community project and is not affiliated with or endorsed by AYN Technologies, Retroid, or their respective parent companies.</sub><br>
-  <sub>Code, documentation, branding, and visual assets were developed with disclosed generative-AI assistance under human direction, supervision, review, testing, and final approval.</sub>
+  <sub>Code, documentation, branding and visual assets were developed with disclosed generative-AI assistance under human direction, supervision, review, testing and final approval.</sub>
 </p>

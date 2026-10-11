@@ -60,10 +60,17 @@ Uses Retroid’s own privileged charging controls to stop active battery chargin
 - Live battery current, USB input and temperature telemetry
 - Safety monitoring with automatic fallback to normal charging
 - **Right away** or **At a battery level** (default: stop at 80%, charge again at 70%)
+- **Quick Settings toggle** to enable or disable Charging Separation using the mode and limits configured in the app
 - Optional restore after reboot
 - Compatible with Retroid Pocket 5, Flip 2, Pocket Mini and Mini V2 (community + maintainer tested)
 
 **[Download the latest release →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation/releases/latest)**
+
+The shortcut is available from [v1.5.11](https://github.com/JestyLabs/Jesty-RP-Charging-Separation/releases/tag/v1.5.11):
+expand Quick Settings, tap **Edit** (the pencil), and drag **Charging Separation**
+into the active tiles. A supervised manual ON/OFF cycle passed on the Flip 2 with
+native charging readback and dashboard OFF synchronization.
+[Setup, tile states and remaining validation →](https://github.com/JestyLabs/Jesty-RP-Charging-Separation#quick-settings-shortcut)
 
 ---
 

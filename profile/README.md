@@ -22,7 +22,7 @@
   </a>
 </p>
 
-**Actually turn off the lower screen in TOP mode, stop unnecessary high CPU clocks, and prevent false wakes.**
+**Truly power down the lower screen in TOP mode, fix unnecessary high CPU clocks, and add optional closed-lid wake protection.**
 
 On the AYN Thor, TOP mode can leave the lower display hardware active behind a black screen. Separately, AYN Dashboard can keep the LITTLE and BIG CPU clusters pinned high under light load.
 
@@ -30,17 +30,18 @@ Jesty Thor Fix has three independent controls:
 
 - **True Bottom Screen Off** – powers the lower hardware fully off in TOP mode and restores true-off after sleep/wake
 - **AYN Dashboard CPU Fix** – stops the reproduced LITTLE/BIG clock pinning (does not change governors or force frequencies)
-- **Closed-Lid Wake Guard** – returns an accidental wake to sleep while the lid is still closed (OFF by default)
+- **Closed-Lid Wake Guard** – optional protection against accidental closed-lid wakes; normal sleep/wake recovery has been tested, but an actual blocked wake has not yet been directly captured
 
 Also:
 - Runs in the background after you close the app
 - Restores your choices after a normal reboot
 - Shows live display and CPU status in the dashboard
+- **v1.7.1 App Diagnostics:** view recent events and save a troubleshooting report from the settings gear
 - Validated on physical AYN Thor hardware
 
 > **Note:** Enabling the CPU Fix restarts Android’s UI/display stack once and closes open apps. The same restart can happen once during boot if the fix is saved as ON.
 
-**[Download the latest release →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/latest)**  
+**[Download Jesty Thor Fix v1.7.1 →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/tag/v1.7.1)**  
 [See the dashboard and controls →](https://github.com/JestyLabs/Jesty-Thor-Fix#what-it-fixes)
 
 ---

@@ -41,7 +41,7 @@ Also:
 > **Note:** Enabling the CPU Fix restarts Android’s UI/display stack once and closes open apps. The same restart can happen once during boot if the fix is saved as ON.
 
 **[Download the latest release →](https://github.com/JestyLabs/Jesty-Thor-Fix/releases/latest)**  
-[See the dashboard and controls →](https://github.com/JestyLabs/Jesty-Thor-Fix#what-it-does)
+[See the dashboard and controls →](https://github.com/JestyLabs/Jesty-Thor-Fix#what-it-fixes)
 
 ---
 
